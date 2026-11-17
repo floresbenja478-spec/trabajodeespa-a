@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - España para descubrir</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>España para descubrir</h1>
+        <p>Conocé los lugares más lindos de España</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="container">
+
+        <section>
+            <h2>Contactanos</h2>
+
+            <p>
+                ¿Querés conocer más sobre España o tenés alguna consulta?
+                Completá el siguiente formulario.
+            </p>
+        </section>
+
+        <section>
+
+            <form id="formularioContacto">
+
+                <div class="mb-3">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre"
+                           class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo"
+                           class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"
+                              class="form-control" rows="5"
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+            <p id="respuesta"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>España para descubrir - Proyecto turístico</p>
+        <p>Conocé, viajá y disfrutá España.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
